@@ -1,0 +1,41 @@
+body {
+    background-color:  chocolate;
+    display: flex;
+    font-family: fantasy;
+    justify-content: center;
+}
+
+.container {
+    padding:20px;
+    background-color: indianred;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #000000;
+    text-align: center;
+    width: 50%;
+}
+
+h1,h2 {
+    color: darkgrey;
+}
+
+input,button {
+    margin:10px 0;
+    padding:10px;
+    width: 95%;
+}
+
+button {
+    background-color: aqua;
+    color:pink;
+    border:none;
+    cursor:grab;
+}
+button:hover {
+    background-color: red;
+    transform: translateY(-5px);
+}
+
+p {
+    font-size: 1.2em;
+    color: darkorange;
+}
